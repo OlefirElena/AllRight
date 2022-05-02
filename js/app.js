@@ -4775,7 +4775,7 @@
                     }
                 });
                 new core(".slider-reviews", {
-                    modules: [ Navigation, Pagination ],
+                    modules: [ Navigation, Pagination, Autoplay ],
                     speed: 1400,
                     centeredSlides: true,
                     grabCursor: true,
@@ -4788,6 +4788,9 @@
                     pagination: {
                         el: ".reviews-controls__dotts",
                         clickable: true
+                    },
+                    autoplay: {
+                        delay: 3e3
                     },
                     breakpoints: {
                         320: {
