@@ -5309,9 +5309,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .gallery__items {
     overflow: auto;
     overflow-y: hidden;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
     -webkit-clip-path: inset(0 0 20px 0);
     clip-path: inset(0 0 20px 0);
     margin-bottom: -1.25rem;
